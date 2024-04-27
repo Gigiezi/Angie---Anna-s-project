@@ -1,0 +1,135 @@
+@media screen and (max-width: 1200px) {
+    .footerImage,
+    .dekstopNav {
+        display: none;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .hamburger{
+        display: inline;
+    }
+    .container {
+        padding: 0 22px;
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+    .whyChoosUs,
+    .whoAreWe {
+        flex-direction: column;
+    }
+
+    .hiroTextContainer {
+        align-items: center;
+    }
+
+    .burgerMenu {
+        display: inline-block;
+    }
+
+    .footerContact .footerItem {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footerTittle {
+        margin-bottom: 0;
+    }
+
+    .whoAreImage {
+        order: -1;
+    }
+
+    .whoAreImage,
+    .whoAreImage img,
+    .whyChooseUsCards,
+    .chooseUsItem {
+        width: 100%;
+    }
+
+    .chooseUsItem {
+        height: auto;
+    }
+
+    .chooseUsItem img {
+        width: 70%;
+        padding-top: 20px;
+    }
+
+    .chooseUsItem span {
+        padding: 0 0 20px 40px;
+        font-size: 15px;
+    }
+
+    .whoAreWe,
+    .whyChoosUs {
+        align-items: start;
+    }
+
+    .whyChooseUsCards {
+        align-self: center;
+    }
+    .btn{
+        opacity: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-image: none;
+    }
+
+    .container {
+        background-image: url(../images/mobileBackgr.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: top;
+    }
+
+    .hiroTextContainer {
+        margin: 0;
+    }
+    .chooseUsItem span {
+        padding: 0 0 20px 75px;
+        font-size: 15px;
+    }
+    .headerLogo{
+        font-size: 17px;
+    }
+    main {
+        margin-top: 100px;
+    }
+
+    .whoAreImage img {
+        width: 100%;
+    }
+
+    .whyChooseCardTop,
+    .whyChooseCardBottom {
+        flex-direction: column;
+    }
+
+    .footerItem span {
+        font-size: 5vw;
+    }
+
+    .hiroTopText h1 {
+        font-size: 24px;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .hiroTopText p {
+        font-size: 10px;
+        line-height: normal;
+        text-align: center;
+    }
+    .headerContainer{
+        padding-bottom: 0;
+    }
+    .hamburger{
+        transform: translateY(-9px);
+    }
+}
