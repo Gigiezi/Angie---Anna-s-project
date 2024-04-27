@@ -1,10 +1,18 @@
 @media screen and (max-width: 1200px) {
-    .footerImage,
-    .dekstopNav {
+    .footerImage{
         display: none;
     }
 }
 @media screen and (max-width: 1000px) {
+    .dekstopNav{
+        display: none;
+    }
+    body{
+        background-image: url(../images/mobileBackgr.png);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: 1000px;
+    }
     .hamburger{
         display: inline;
     }
@@ -13,6 +21,14 @@
     }
     .hiroTopText h1, .hiroTopText p{
         text-align: center;
+    }
+    .hiroTopText h1{
+        font-size: 64px;
+        line-height: normal;
+    }
+    .hiroTopText p{
+        font-size: 18px;
+        line-height:normal;
     }
     footer {
         justify-content: center;
@@ -25,6 +41,7 @@
 
     .hiroTextContainer {
         align-items: center;
+        margin-top: 273px;
     }
 
     .burgerMenu {
@@ -95,7 +112,14 @@
     .headerLogo{
         font-size: 17px;
     }
-
+    .hiroTopText h1{
+        font-size: 50px;
+        line-height: normal;
+    }
+    .hiroTopText p{
+        font-size: 14px;
+        line-height:normal;
+    }
     .whoAreImage img {
         width: 100%;
     }
