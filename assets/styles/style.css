@@ -46,9 +46,8 @@ body {
     width: 1180px;
     --bs-gutter-x: 0;
 }
-
-main {
-    margin-top: 275px;
+main{
+    margin-top: 240px;
 }
 
 /* Header and Hero Styles */

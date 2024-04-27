@@ -11,7 +11,9 @@
     .container {
         padding: 0 22px;
     }
-
+    .hiroTopText h1, .hiroTopText p{
+        text-align: center;
+    }
     footer {
         justify-content: center;
     }
@@ -77,19 +79,14 @@
 }
 
 @media screen and (max-width: 600px) {
-    body {
-        background-image: none;
-    }
-
-    .container {
+    body{
         background-image: url(../images/mobileBackgr.png);
-        background-size: contain;
         background-repeat: no-repeat;
         background-position: top;
+        background-size: 600px;
     }
-
     .hiroTextContainer {
-        margin: 0;
+        margin-top: 40px;
     }
     .chooseUsItem span {
         padding: 0 0 20px 75px;
@@ -97,9 +94,6 @@
     }
     .headerLogo{
         font-size: 17px;
-    }
-    main {
-        margin-top: 100px;
     }
 
     .whoAreImage img {
@@ -115,7 +109,7 @@
         font-size: 5vw;
     }
 
-    .hiroTopText h1 {
+    /* .hiroTopText h1 {
         font-size: 24px;
         line-height: normal;
         text-align: center;
@@ -125,11 +119,30 @@
         font-size: 10px;
         line-height: normal;
         text-align: center;
-    }
+    } */
     .headerContainer{
         padding-bottom: 0;
     }
     .hamburger{
         transform: translateY(-9px);
     }
+    main{
+        margin-top: 190px;
+    }
 }
+/* @media screen and (min-width: 432px) {
+    .hiroTopText h1{
+        font-size: 46px;
+    }
+    .hiroTopText p{
+        font-size: 14px;
+    }
+    main{
+        margin-top: 32vw;
+    }
+} */
+/* @media screen and (max-width: 557px) {
+    main{
+        margin-top: 148px;
+    }
+} */
