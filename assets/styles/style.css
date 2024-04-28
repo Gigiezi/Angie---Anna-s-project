@@ -11,7 +11,9 @@
 p {
     margin-bottom: 0 !important;
 }
-
+ul{
+    margin-bottom: 0 !important;
+}
 a {
     text-decoration: none !important;
     color: inherit !important;
@@ -26,7 +28,12 @@ h6 {
     font-weight: 700;
     font-size: 40px;
 }
-
+header{
+    position: sticky;
+    top: 0;
+    background-color: #FFFFFF;
+    padding: 0 20px 10px 20px;
+}
 body {
     background-image: url(../images/heroimg.png);
     background-size: 1519px;
@@ -67,6 +74,7 @@ ul {
     gap: 32px;
     font-size: 16px;
     font-weight: 700;
+    color: #000;
 }
 
 ul li {
@@ -77,12 +85,14 @@ ul li {
     font-weight: bold;
     font-size: 24px;
     cursor: pointer;
+    color: #000;
 }
 
 .bookNow {
     font-size: 12px;
     padding: 4px 12px;
     border-radius: 4px;
+    color: #FFFFFF;
     background-color: #2D7FD6;
 }
 

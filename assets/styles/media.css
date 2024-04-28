@@ -3,9 +3,26 @@
         display: none;
     }
 }
+@media screen and (max-width: 1400px){
+    .whoAreWe, .whyChoosUs{
+        gap: 40px;
+    }
+    .whoAreText p{
+        white-space: wrap;
+    }
+}
 @media screen and (max-width: 1000px) {
+    main{
+        margin-top: 330px;
+    }
     .dekstopNav{
         display: none;
+    }
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
     }
     body{
         background-image: url(../images/mobileBackgr.png);
@@ -102,6 +119,9 @@
         background-position: top;
         background-size: 600px;
     }
+    header{
+        padding-bottom: 10px;
+    }
     .hiroTextContainer {
         margin-top: 40px;
     }
@@ -132,18 +152,6 @@
     .footerItem span {
         font-size: 5vw;
     }
-
-    /* .hiroTopText h1 {
-        font-size: 24px;
-        line-height: normal;
-        text-align: center;
-    }
-
-    .hiroTopText p {
-        font-size: 10px;
-        line-height: normal;
-        text-align: center;
-    } */
     .headerContainer{
         padding-bottom: 0;
     }
@@ -151,22 +159,6 @@
         transform: translateY(-9px);
     }
     main{
-        margin-top: 190px;
+        margin-top: 200px;
     }
 }
-/* @media screen and (min-width: 432px) {
-    .hiroTopText h1{
-        font-size: 46px;
-    }
-    .hiroTopText p{
-        font-size: 14px;
-    }
-    main{
-        margin-top: 32vw;
-    }
-} */
-/* @media screen and (max-width: 557px) {
-    main{
-        margin-top: 148px;
-    }
-} */
