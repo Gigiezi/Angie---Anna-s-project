@@ -11,9 +11,11 @@
 p {
     margin-bottom: 0 !important;
 }
-ul{
+
+ul {
     margin-bottom: 0 !important;
 }
+
 a {
     text-decoration: none !important;
     color: inherit !important;
@@ -28,12 +30,17 @@ h6 {
     font-weight: 700;
     font-size: 40px;
 }
-header{
+
+header {
     position: sticky;
     top: 0;
     background-color: #FFFFFF;
     padding: 0 20px 10px 20px;
+    border-radius: 0 0 10px 10px;
+    opacity: 85%;
+    z-index: 9999;
 }
+
 body {
     background-image: url(../images/heroimg.png);
     background-size: 1519px;
@@ -53,7 +60,8 @@ body {
     width: 1180px;
     --bs-gutter-x: 0;
 }
-main{
+
+main {
     margin-top: 240px;
 }
 
@@ -74,7 +82,7 @@ ul {
     gap: 32px;
     font-size: 16px;
     font-weight: 700;
-    color: #000;
+    color: #171616;
 }
 
 ul li {
@@ -85,7 +93,7 @@ ul li {
     font-weight: bold;
     font-size: 24px;
     cursor: pointer;
-    color: #000;
+    color: #171616;
 }
 
 .bookNow {
@@ -282,11 +290,12 @@ footer {
 }
 
 /* Burger Menu */
-.burgerMenuLogo{
+.burgerMenuLogo {
     font-size: 15px;
     font-weight: 700;
     color: #000;
 }
+
 .hamburger {
     position: fixed;
     z-index: 100;
@@ -298,6 +307,7 @@ footer {
     display: none;
     transform: translateY(-5px);
 }
+
 .closeIcon {
     display: none;
 }
@@ -319,9 +329,24 @@ footer {
     display: flex;
     flex-direction: column;
 }
-.menuItem{
+
+.menuItem {
     color: #000;
 }
+
 .showMenu {
     transform: translateY(0);
+}
+
+/* On Scroll Animation */
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1.5s all ease;
+}
+
+.reveal.active {
+    transform: translateY(0);
+    opacity: 1;
 }
