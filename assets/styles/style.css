@@ -36,7 +36,6 @@ header {
     top: 0;
     background-color: #FFFFFF;
     padding: 0 20px 10px 20px;
-    border-radius: 0 0 10px 10px;
     opacity: 85%;
     z-index: 9999;
 }
@@ -191,6 +190,7 @@ ul li {
 
 .whyChooseUsText {
     white-space: pre-line;
+    margin-right: 105px;
 }
 
 .whyChooseUsText h2 {
@@ -204,7 +204,9 @@ ul li {
     text-transform: uppercase;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 300;
+    color: #151C50;
+    opacity: 90%;
+    font-weight: bold;
 }
 
 .whyChooseUsBottomText span {
@@ -215,6 +217,7 @@ ul li {
 .whyChooseUsBottomText p {
     font-size: 14px;
     font-weight: 300;
+    color: #151C50;
 }
 
 .whyChooseUsCards {

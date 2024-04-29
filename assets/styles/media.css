@@ -12,6 +12,22 @@
     }
 }
 @media screen and (max-width: 1000px) {
+    .whoAreText{
+        gap: 0;
+    }
+    .whyChooseUsText h2{
+        padding-bottom: 14px;
+    }
+    .whyChooseUsText{
+        margin-right: 0;
+        order: -1;
+    }
+    .whyChooseUsBottomText{
+        margin-top: 15px;
+    }
+    .whyChooseUsText{
+        white-space: wrap;
+    }
     main{
         margin-top: 330px;
     }
@@ -29,6 +45,9 @@
         background-repeat: no-repeat;
         background-position: top;
         background-size: 1000px;
+    }
+    .headerLogo{
+        font-size: 20px;
     }
     .hamburger{
         display: inline;
@@ -123,18 +142,18 @@
         padding-bottom: 10px;
     }
     .hiroTextContainer {
-        margin-top: 40px;
+        margin-top: 125px;
     }
     .chooseUsItem span {
         padding: 0 0 20px 75px;
         font-size: 15px;
     }
     .headerLogo{
-        font-size: 17px;
+        font-size: 14px;
     }
     .hiroTopText h1{
-        font-size: 50px;
-        line-height: normal;
+        font-size: 48px;
+        line-height: 48px;
     }
     .hiroTopText p{
         font-size: 14px;
@@ -156,7 +175,7 @@
         padding-bottom: 0;
     }
     .hamburger{
-        transform: translateY(-9px);
+        transform: translateY(-13px);
     }
     main{
         margin-top: 200px;
